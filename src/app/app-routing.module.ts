@@ -16,6 +16,7 @@ const routes: Routes = [
   {path: '**', component: PaginaNaoEncontradaComponent}
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

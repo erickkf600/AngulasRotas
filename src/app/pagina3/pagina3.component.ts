@@ -1,3 +1,4 @@
+import { NavbarService } from './../navbar.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagina3.component.sass']
 })
 export class Pagina3Component implements OnInit {
-
-  constructor() { }
+  constructor(public nav: NavbarService) { }
 
   ngOnInit() {
+    this.nav.hide();
   }
 
 }

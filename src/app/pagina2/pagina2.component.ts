@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagina2.component.sass']
 })
 export class Pagina2Component implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
